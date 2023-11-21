@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form - Validation</title>
+</head>
+<link rel="stylesheet" href="style.css">
+
+<body>
+    <div class="main">
+        <div class="formBox">
+            <div class="formHeading">
+                <h3>Workshop Registration Form</h3>
+            </div>
+            <div class="formMain">
+                <div class="firstName">
+                    <label for="fname">First Name: </label>
+                    <input type="text" name="fname" id="fname">
+                </div>
+                <div class="lastName">
+                    <label for="lname">Last Name: </label>
+                    <input type="text" name="lname" id="lname">
+                </div>
+                <div class="email">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                </div>
+                <div class="phone">
+                    <label for="phone">Phone: </label>
+                    <input type="text" name="phone" id="phone">
+                </div>
+                <div class="dropdown">
+                    <label for="subject">Topics: </label>
+                    <select name="subject" id="subject">
+                        <option value="workshop-1">The Basics Of Power BI</option>
+                        <option value="workshop-2">Real-Time Data Updates With PHP And AJAX</option>
+                        <option value="workshop-3">Graphics Using CANVA</option>
+                        <option value="workshop-4">Web Integration With Firebase</option>
+                        <option value="workshop-5">The Digital Professional Toolkit</option>
+                    </select>
+                </div>
+                <div class="btn">
+                    <button onclick="validateForm()">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

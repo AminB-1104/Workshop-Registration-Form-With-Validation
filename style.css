@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  width: 100vw;
+  height: 100vh;
+  /* background: radial-gradient(#2E3192, #1BFFFF); */
+  background: linear-gradient(to top right, #2E3192, #1BFFFF);
+  position: absolute;
+}
+
+.formBox {
+  width: 50%;
+  height: 80%;
+  background-color: rgb(255, 255, 255);
+  /* margin: 5% auto; */
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+}
+
+.formHeading {
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  height: 5%;
+  padding: 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 3px;
+}
+
+.formMain {
+  width: 90%;
+  height: 94%;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.firstName {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.lastName {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.email {
+  width: 73%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.phone {
+  width: 72%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.dropdown {
+  width: 56%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown select {
+  width: 58%;
+  padding: 7px 35px;
+  background-color: rgba(223, 223, 223, 0.795);
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+input {
+  padding: 7px 35px;
+  background-color: rgba(223, 223, 223, 0.795);
+  border: none;
+  border-radius: 5px;
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+}
+
+label {
+  font-size: 17px;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+label:hover {
+  cursor: pointer;
+}
+
+.btn{
+    width: 31rem;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn button{
+    font-size: 15px;
+    padding: 10px 40px;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: rgb(25, 63, 233);
+}
+
+button:hover{
+    cursor: pointer;
+}
